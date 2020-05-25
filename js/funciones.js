@@ -18,7 +18,7 @@ function obtenerLetraDNI() {
     // Creo una variable que según la posición de la letra, devuelve la correspondiente de la lista de letras.
     letraDNI = listaLetras[posicionLetraDNI]
     // Añado un console.log con un mensaje de respuesta, y un document.write para escribir el DNI y letra por pantalla.
-    console.log(`La letra del número de DNI ${numeroDNI} corresponde a la letra ${letraDNI}. DNI completo: ${numeroDNI}${letraDNI}`);
+    console.log(`La letra del número de DNI ${numeroDNI} corresponde a ${letraDNI}. DNI completo: ${numeroDNI}${letraDNI}`);
     document.write(`${numeroDNI}${letraDNI} `)
 
 }
