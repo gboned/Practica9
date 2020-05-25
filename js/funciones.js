@@ -22,3 +22,6 @@ function obtenerLetraDNI() {
     document.write(`${numeroDNI}${letraDNI} `)
 
 }
+
+// Llamo a la función para que se active directamente.
+obtenerLetraDNI();
